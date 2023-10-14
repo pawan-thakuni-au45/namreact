@@ -1,0 +1,20 @@
+.card-con{
+    height:350px;
+     width:240px; 
+    background-color: antiquewhite;
+    margin:10px;
+  
+    
+   
+   
+}
+.card-con:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.card-im{
+    padding: 1px;
+  
+     width:99%;
+}
