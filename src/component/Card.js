@@ -1,4 +1,5 @@
 import React from 'react'
+import {CDN_URL} from '../utils/constant'
 import './Card.css'
 
 function Card(props) {
@@ -6,7 +7,7 @@ function Card(props) {
   return (
     <div className='card-con'>
     
-    <img className='card-im' alt='card-img' src={'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/'+ resData.info.cloudinaryImageId}/>
+    <img className='card-im' alt='card-img' src={CDN_URL+ resData.info.cloudinaryImageId}/>
          <h3>{resData.info.name}</h3>  
         <h4>{resData.info.cuisines.join(',')}</h4>
           <h4>{resData.info.costfORtWO}</h4>

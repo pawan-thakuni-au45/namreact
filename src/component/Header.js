@@ -1,4 +1,5 @@
 import React from 'react'
+import {LOGO_URL} from '../utils/constant'
 import './Header.css'
 
 function Header() {
@@ -6,7 +7,7 @@ function Header() {
     <div className='header'>
 
       <div className='logocontainer'>
-        <img className='logo' src='https://dynamic.brandcrowd.com/asset/logo/94def15e-5330-48a2-9ed6-4992a21f4b7f/logo-search-grid-1x?logoTemplateVersion=1&v=637682366529570000' alt='foood'/>
+        <img className='logo' src={LOGO_URL} alt='foood'/>
       </div>
     <div className='nav-bar'>
       <ul >
