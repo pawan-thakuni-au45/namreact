@@ -13,6 +13,7 @@ function Card(props) {
           <h4>{resData.info.costfORtWO}</h4>
           <h4>{resData.info.avgRating}</h4>
         
+        
          
 
     </div>  )

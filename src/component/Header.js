@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {LOGO_URL} from '../utils/constant'
 import './Header.css'
 
 function Header() {
+
+    const [loginbtn,setlogintbn]=useState('login')
   return (
     <div className='header'>
 
@@ -15,6 +17,11 @@ function Header() {
          <li>About</li>
          <li>Contact</li>
          <li>Cart</li>
+         <button onClick={()=>{
+            loginbtn==='login'?
+            setlogintbn('logout'):
+            setlogintbn('login')
+         }}>{loginbtn}</button>
          
        </ul>
     </div>
