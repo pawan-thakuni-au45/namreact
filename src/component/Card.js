@@ -1,17 +1,17 @@
 import React from 'react'
 import {CDN_URL} from '../utils/constant'
-import './Card.css'
+
 
 function Card(props) {
     const {resData}=props
   return (
-    <div className='card-con'>
+    <div className='m-2 p-1 ml-14 w-[300px] item-center bg-gray-200 rounded-lg hover:bg-gray-400'>
     
-    <img className='card-im' alt='card-img' src={CDN_URL+ resData.info.cloudinaryImageId}/>
-         <h3>{resData.info.name}</h3>  
-        <h4>{resData.info.cuisines.join(',')}</h4>
-          <h4>{resData.info.costfORtWO}</h4>
-          <h4>{resData.info.avgRating}</h4>
+    <img className='rounded-lg p-5' alt='card-img flex' src={CDN_URL+ resData.info.cloudinaryImageId}/>
+         <h3 className='font-bold py-2'>{resData.info.name}</h3>  
+        <h5>{resData.info.cuisines.join(',')}</h5>
+          <h4>{resData.info.costForTwo  }</h4>
+          <h4 className='font-bold '>{resData.info.avgRating}</h4>
         
         
          

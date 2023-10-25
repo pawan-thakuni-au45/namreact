@@ -2,14 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header';
 import Body from './component/Body';
+import About from './component/About';
+import {createBrowserRouter,Outlet,RouterProvider} from 'react-router-dom'
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Header/>
-      <Body/>
+      <Outlet/>
     </div>
   );
 }
+
 
 export default App;

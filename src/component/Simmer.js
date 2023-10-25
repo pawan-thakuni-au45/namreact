@@ -1,5 +1,5 @@
 import React from 'react'
-import './Simmer.css'
+
 
 function Simmer() {
   return (
