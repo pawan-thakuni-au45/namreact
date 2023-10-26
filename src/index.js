@@ -13,7 +13,7 @@ import About from './component/About';
 import { Provider } from 'react-redux';
 import appStore from './utils/appStore';
 import Cart from './component/Cart';
-import Submit from './component/Submit'
+
 
 
 const approuter=createBrowserRouter([
@@ -41,10 +41,7 @@ const approuter=createBrowserRouter([
   path:'/cart',
   element:<Cart/>
 },
-{
-  path:'/submit',
-  element:<Submit/>
-},
+
 
 
 

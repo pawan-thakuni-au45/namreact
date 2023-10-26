@@ -35,9 +35,8 @@ function Header() {
         <Link to='/About '> About</Link>
          
          </li>
-         <li className='px-5 hover:bg-gray-400'>
-         <Link to='/contact'>Contact</Link>
-         </li>
+         
+         
          <li className='px-5 hover:bg-gray-400'>
        <Link to='/cart'>Cart({cart.length}items)</Link>           
          </li> 
