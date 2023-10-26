@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import About from './component/About';
-import Contact from './component/Contact';
+
  import Error from './component/Error';
  import Body from './component/Body';
 //  import Restaurent from './component/Restaurent';
@@ -13,6 +13,7 @@ import Contact from './component/Contact';
 import { Provider } from 'react-redux';
 import appStore from './utils/appStore';
 import Cart from './component/Cart';
+import Submit from './component/Submit'
 
 
 const approuter=createBrowserRouter([
@@ -30,10 +31,7 @@ const approuter=createBrowserRouter([
     path:'/about',
     element:<About/>
 },
-{
-path:'/contact',
-element:<Contact/>
-},
+
 {
   path:'/restaurent/:resId',
   element:<RestrauntMenu/>
@@ -42,6 +40,10 @@ element:<Contact/>
 
   path:'/cart',
   element:<Cart/>
+},
+{
+  path:'/submit',
+  element:<Submit/>
 },
 
 
