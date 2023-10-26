@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams, useSearchParams } from 'react-router-dom';
-import { MENU_API } from '../utils/constant';
+import { MENU_API } from '../utils/constants';
 
 
 import Simmer from './Simmer';

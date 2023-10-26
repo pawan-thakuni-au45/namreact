@@ -33,10 +33,10 @@ render() {
 
   return (
     <div className="item-center ml-96">
-      <h1>About Class Component</h1>
+      <h1>Hii friends</h1>
     
        
-      <h2>This is Namaste React Web Series</h2>
+      <h2>You can access my github page </h2>
       <UserClass/>
     </div>
   );
