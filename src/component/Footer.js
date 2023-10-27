@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
     <div className='hidden md:flex min-h-[104px] bg-gray-200 mt-6 items-center justify-center '>
-    <h1 className='md:w-72 md:mr-12 text-2xl font-extrabold my-auto lg:w-[408px] mr-24'>download the app </h1>
+    <h1 className='md:w-72 md:mr-12 text-2xl font-extrabold my-auto lg:w-[408px] mr-24'>Download the app </h1>
     <div className='flex justify-center my-auto mx-2 h-16 gap-5'>
       <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store.png" alt="googleplay" />
       <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.png" alt="appstore" />
@@ -23,7 +23,7 @@ const Footer = () => {
           <h2 className='text-lg font-bold'>Company</h2>
           <ul>
             <li className='my-4'>
-              <Link to='https://www.linkedin.com/in/supershivam/' target="_blank" className='text-gray-300 hover:text-white transition duration-300'>
+              <Link to='https://www.linkedin.com/in/pawan-thakuni-390a2324b/' target="_blank" className='text-gray-300 hover:text-white transition duration-300'>
                 About
               </Link>
             </li>
