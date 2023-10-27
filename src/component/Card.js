@@ -5,6 +5,7 @@ import {CDN_URL} from '../utils/constants'
 function Card(props) {
     const {resData}=props
   return (
+    
     <div className='m-2 p-1 ml-14 w-[300px] item-center bg-gray-200 rounded-lg hover:bg-gray-400'>
     
     <img className='rounded-lg p-5' alt='card-img flex' src={CDN_URL+ resData.info.cloudinaryImageId}/>
@@ -12,11 +13,17 @@ function Card(props) {
         <h5>{resData.info.cuisines.join(',')}</h5>
           <h4>{resData.info.costForTwo  }</h4>
           <h4 className='font-bold '>{resData.info.avgRating}</h4>
+
+      
         
         
          
 
-    </div>  )
+    </div> 
+    
+    
+    
+    )
 }
 
 export default Card
